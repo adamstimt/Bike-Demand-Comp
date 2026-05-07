@@ -8,9 +8,9 @@ This repository contains a solution for a bike-sharing demand forecasting compet
 
 The objective is to transform raw trip records into a station-level daily forecast. The evaluation metric is a weighted Root Mean Squared Logarithmic Error (RMSLE):
 
-                        Score = (0.7 )
+                        $$\text{Score} = (0.7 \times \text{RMSLE}_{\text{demand}}) + (0.3 \times \text{RMSLE}_{\text{returns}})$$
 
-## 🛠️ Methodology & Approach
+##  Methodology & Approach
 
 The solution follows a structured pipeline to handle station-specific behaviors and seasonal trends:
 
@@ -46,7 +46,7 @@ Since bike demand is highly sensitive to holidays and specific calendar dates, s
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Dataset Path
 
@@ -78,7 +78,7 @@ python solution.py
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 * Timtaoucine adem / adamstimt
 
