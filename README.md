@@ -8,7 +8,7 @@ This repository contains a solution for a bike-sharing demand forecasting compet
 
 The objective is to transform raw trip records into a station-level daily forecast. The evaluation metric is a weighted Root Mean Squared Logarithmic Error (RMSLE):
 
-                        $$\text{Score} = (0.7 \times \text{RMSLE}_{\text{demand}}) + (0.3 \times \text{RMSLE}_{\text{returns}})$$
+                        Score = (0.7 X RMSLEdemand) + (0.3 X RMSLEreturns)
 
 ##  Methodology & Approach
 
@@ -62,13 +62,7 @@ Ensure the dataset is placed in the directory:
 pip install pandas numpy scikit-learn
 ```
 
-### 3. Run the Script
 
-```bash
-python solution.py
-```
-
----
 
 ## 📊 Key Results
 
